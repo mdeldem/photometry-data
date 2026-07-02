@@ -4,16 +4,16 @@
 
 https://vsx.aavso.org/index.php?view=detail.top&oid=49766
 
-| Propriété | Valeur |
-|-----------|--------|
+| Property | Value |
+|----------|-------|
 | AAVSO UID | -- |
 | Constellation | Lyra |
-| J2000.0 | 18 37 47.20 +34 56 46.0 |
-| Coordonnées décimales | RA = 279.44667° ; DEC = +34.94611° |
-| Type de variabilité | RRC |
-| Plage de magnitude | 12.9 – 13.1 CR |
-| Époque | 14 Aug 2004 (HJD 2453232.37) |
-| Période | 0.293162 d (7.0359 h) |
-| Durée de montée / éclipse | 36 % (2.53 h) |
+| Coordinates (J2000) | RA = 18h 37m 47.20s<br>DEC = +34° 56′ 46.0″ |
+| Coordinates (decimal) | RA = 279.44667°<br>DEC = +34.94611° |
+| Variability type | RRc |
+| Magnitude range | 12.9 – 13.1 CR |
+| Epoch | 14 Aug 2004 (HJD 2453232.37) |
+| Period | 0.293162 d (7.0359 h) |
+| Rise duration | 36 % (2.53 h) |
 
 

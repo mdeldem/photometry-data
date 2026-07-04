@@ -6,21 +6,24 @@ This repository contains my personal CCD photometric observations of astronomica
 
 The data have been acquired during my own observing sessions using CCD cameras and are intended for long-term archival, analysis, and scientific use.
 
-The repository currently includes observations of variable stars and may be extended to other types of objects (e.g. asteroids) in the future.
-
 ## Repository organization
 
-Each observed object has its own directory.
+The repository is organized by object category.
 
 ```text
 photometry-data/
-├── Object_1/
-├── Object_2/
-├── Object_3/
-└── ...
+└── objects/
+    ├── variable_stars/
+    │   ├── Object_1/
+    │   ├── Object_2/
+    │   └── ...
+    └── asteroids/
+        ├── Object_1/
+        ├── Object_2/
+        └── ...
 ```
 
-Each object directory contains:
+Each observed object has its own directory containing:
 
 * a `README.md` file describing the object and its astrophysical characteristics;
 * one or more photometric measurement files, organized by observation date.

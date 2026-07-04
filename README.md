@@ -6,7 +6,7 @@ This repository contains my **personal CCD photometric observations** of astrono
 
 All measurements have been acquired during my own observing sessions using CCD cameras. The purpose of this repository is to archive these observations, preserve their history using Git, and make them available for future analysis.
 
-<<<<<<< HEAD
+
 ## Repository organization
 
 The repository is organized by object category.

@@ -2,10 +2,11 @@
 
 ## Overview
 
-This repository contains my personal CCD photometric observations of astronomical objects.
+This repository contains my **personal CCD photometric observations** of astronomical objects.
 
-The data have been acquired during my own observing sessions using CCD cameras and are intended for long-term archival, analysis, and scientific use.
+All measurements have been acquired during my own observing sessions using CCD cameras. The purpose of this repository is to archive these observations, preserve their history using Git, and make them available for future analysis.
 
+<<<<<<< HEAD
 ## Repository organization
 
 The repository is organized by object category.
@@ -24,25 +25,47 @@ photometry-data/
 ```
 
 Each observed object has its own directory containing:
+=======
+## Repository structure
 
-* a `README.md` file describing the object and its astrophysical characteristics;
-* one or more photometric measurement files, organized by observation date.
+```text
+photometry-data/
+│
+└── objects/
+    ├── NSV_11142/
+    ├── RR_Lyr/
+    ├── SS_Cnc/
+    └── ...
+```
+
+Each directory under `objects/` corresponds to a single astronomical object.
+
+Each object directory contains:
+>>>>>>> c7351945a9efddf6a5aee558e85bfcc38f1cc1a8
+
+* a `README.md` describing the object and its main astrophysical characteristics;
+* one or more photometric measurement files.
 
 ## Data
 
-The repository stores only photometric measurement files.
+This repository contains **only photometric measurements**.
 
-Raw CCD images (FITS), calibration frames (bias, dark, flat), and processing scripts are not included.
+It does **not** include:
+
+* raw CCD images (FITS);
+* calibration frames (bias, dark, flat);
+* image processing scripts;
+* photometric reduction software.
 
 ## Purpose
 
 The objectives of this repository are:
 
 * archive my personal CCD photometric observations;
-* preserve the complete observation history under version control;
-* facilitate data sharing and reproducibility;
-* provide a structured dataset for scientific analysis.
+* preserve the complete history of observations using Git;
+* organize measurements by astronomical object;
+* facilitate future scientific analyses.
 
 ## License
 
-Unless otherwise specified, all observations contained in this repository are my own work.
+Unless otherwise specified, all photometric observations contained in this repository were acquired by me and remain my personal work.
